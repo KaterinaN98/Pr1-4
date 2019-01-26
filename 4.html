@@ -29,3 +29,32 @@
     </form>
   </body>
 </html>
+
+Ответ в формате JSON:
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {                       //параметры, которые входят в отправленную форму
+    "firstname": "Katerina", 
+    "group": "NMT-362701", 
+    "lastname": "Nosova", 
+    "message": "Hello!", 
+    "myimg": ""
+  }, 
+  "headers": {            
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",   	 //список файлов, поддерживаемых браузером клиента
+    "Accept-Encoding": "gzip, deflate",                                                                 	 //список способов кодирования, поддерживаемых клиентом, для шифровки тела сообщения.
+    "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",                                            	 //список языков, которые на момент запроса указаны в браузере клиента
+    "Cache-Control": "max-age=0",                                                                        
+    "Connection": "close", 
+    "Content-Length": "80",                                                                             	 //размер передаваемого документа в байтах
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org",                                                                             	         //доменное имя хоста запрашиваемого ресурса
+    "Origin": "null", 
+    "Upgrade-Insecure-Requests": "1", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"   //указание программного обеспечения клиента и его характеристики
+  }, 
+  "json": null,                  
+  "origin": "128.75.127.126",                     //мой Ip адрес
+  "url": "http://httpbin.org/post"     		  //адрес HTML страницы
